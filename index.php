@@ -41,8 +41,12 @@
    <?php require 'two.php' ?> 
     </div>
     <div class="container">
-    <h4 id="three">3. In order to define the continent of initiating IP use ipstack.com service.
+
+    <h4 id="three">3. In order to define the continent of initiating IP use ipstack.com service -  <?php  
+        if (isset($_GET['ci'])) {
+         echo $Customer_ID=$_GET['ci'];  }?>
 </h4>
+
    <?php require 'three.php' ?> 
     </div>
 </div>
